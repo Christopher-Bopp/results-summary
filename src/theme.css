@@ -1,0 +1,28 @@
+:root {
+  --primary-light-red: hsl(0, 100%, 67%);
+  --primary-orangey-yellow: hsl(39, 100%, 56%);
+  --primary-green-teal: hsl(166, 100%, 37%);
+  --primary-cobalt-blue: hsl(234, 85%, 45%);
+
+  --gradient-light-slate-blue: hsl(252, 100%, 67%);
+  --gradient-light-royal-blue: hsl(241, 81%, 54%);
+  --gradient-violet-blue: hsla(256, 72%, 46%, 1);
+  --gradient-persian-blue: hsla(241, 72%, 46%, 0);
+  --results-section-gradient: linear-gradient(
+    180deg,
+    hsl(252, 100%, 67%) 0%,
+    hsl(252, 100%, 63%) 0.01%,
+    hsl(241, 81%, 54%) 100%
+  );
+  --results-score-background-gradient: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-pale-blue: hsl(222, 100%, 96%);
+  --neutral-light-lavendar: hsl(241, 100%, 89%);
+  --neutral-dark-gray-blue: hsl(224, 30%, 27%);
+}

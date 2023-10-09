@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "HankenGrotesk-bold";
+  src: url("./assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: "HankenGrotesk-medium";
+  src: url("./assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+
+@font-face {
+  font-family: "HankenGrotesk-extra-bold";
+  src: url("./assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "HankenGrotesk-medium", sans-serif;
+  line-height: 1.5;
+
+  background-color: var(--neutral-pale-blue);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
