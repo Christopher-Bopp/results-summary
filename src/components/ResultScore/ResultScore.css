@@ -14,9 +14,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /*sizing for mobile */
+  max-height: 22.25rem;
+  padding-bottom: 2.5rem;
+
   @media (min-width: 56.25rem) {
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
+    max-height: inherit;
+    padding-bottom: inherit;
   }
 }
 
@@ -24,18 +30,24 @@
   color: hsla(241, 100%, 89%, 1);
   font-family: "HankenGrotesk-bold", sans-serif;
   font-feature-settings: "clig" off, "liga" off;
-  font-size: 1.4rem;
+
+  /*sizing for mobile */
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 2.38rem;
+  margin-top: 1.5rem;
+
+  @media (min-width: 56.25rem) {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2.38rem;
+  }
 }
 
 .results__userScoreContainer {
-  width: 12.5rem;
-  height: 12.5rem;
-  margin-top: 2.19rem;
-
   background: var(--results-score-background-gradient);
   border-radius: 50%;
 
@@ -43,46 +55,91 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  row-gap: 0.25rem;
 
-  font-family: "HankenGrotesk-bold", sans-serif;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 700;
   line-height: normal;
   color: var(--neutral-light-lavendar, #cac9ff);
+
+  /*sizing for mobile */
+  width: 8.75rem;
+  height: 8.75rem;
+  margin-top: 1.5rem;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+
+  font-family: "HankenGrotesk-bold", sans-serif;
+
+  @media (min-width: 56.25rem) {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-top: 2.19rem;
+
+    row-gap: 0.25rem;
+
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+  }
 }
 
 .results__userScoreValue {
   font-family: "HankenGrotesk-bold", sans-serif;
-  font-size: 4.5rem;
+  color: var(--neutral-white);
+
+  /*sizing for mobile */
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: 800;
-  line-height: 4.5rem; /* 100% */
-  color: var(--neutral-white);
+  line-height: 4.5rem; /* 128.571% */
+
+  @media (min-width: 56.25rem) {
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 4.5rem; /* 100% */
+  }
 }
 
 .results__userScoreQuality {
-  margin-top: 1.75rem;
-
   color: var(--neutral-white);
   font-feature-settings: "clig" off, "liga" off;
   font-family: "HankenGrotesk-bold", sans-serif;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 700;
+
   line-height: normal;
+
+  /*sizing for mobile */
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+
+  @media (min-width: 56.25rem) {
+    margin-top: 1.75rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+  }
 }
 
 .results__userScoreComparison {
-  margin-top: 0.88rem;
-  width: 16.25rem;
-
   color: var(--neutral-light-lavendar);
   font-feature-settings: "clig" off, "liga" off;
   font-family: "HankenGrotesk-medium", sans-serif;
-  font-size: 1.125rem;
+
+  width: 16.25rem;
+
+  /*sizing for mobile */
+  margin-top: 0.5rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+
+  @media (min-width: 56.25rem) {
+    margin-top: 0.88rem;
+
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
