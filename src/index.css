@@ -22,12 +22,15 @@
 :root {
   font-family: "HankenGrotesk-medium", sans-serif;
   line-height: 1.5;
-
-  background-color: var(--neutral-pale-blue);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  background-color: var(--neutral-white);
+
+  @media (min-width: 36rem) {
+    background-color: var(--neutral-pale-blue);
+  }
 }

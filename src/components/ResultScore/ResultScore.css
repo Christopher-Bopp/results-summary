@@ -2,7 +2,7 @@
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   background: var(
-    --results-section-gradient,
+    --blue-gradient,
     linear-gradient(
       180deg,
       hsl(252, 100%, 67%) 0%,
@@ -18,7 +18,7 @@
   max-height: 22.25rem;
   padding-bottom: 2.5rem;
 
-  @media (min-width: 56.25rem) {
+  @media (min-width: 36rem) {
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
     max-height: inherit;
@@ -38,11 +38,8 @@
   line-height: normal;
   margin-top: 1.5rem;
 
-  @media (min-width: 56.25rem) {
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  @media (min-width: 36rem) {
+    font-size: 1.5rem;
     margin-top: 2.38rem;
   }
 }
@@ -70,7 +67,7 @@
 
   font-family: "HankenGrotesk-bold", sans-serif;
 
-  @media (min-width: 56.25rem) {
+  @media (min-width: 36rem) {
     width: 12.5rem;
     height: 12.5rem;
     margin-top: 2.19rem;
@@ -93,7 +90,7 @@
   font-weight: 800;
   line-height: 4.5rem; /* 128.571% */
 
-  @media (min-width: 56.25rem) {
+  @media (min-width: 36rem) {
     font-size: 4.5rem;
     font-style: normal;
     font-weight: 800;
@@ -112,7 +109,7 @@
   margin-top: 1.5rem;
   font-size: 1.5rem;
 
-  @media (min-width: 56.25rem) {
+  @media (min-width: 36rem) {
     margin-top: 1.75rem;
     font-size: 2rem;
     font-style: normal;
@@ -134,7 +131,7 @@
   font-weight: 500;
   line-height: normal;
 
-  @media (min-width: 56.25rem) {
+  @media (min-width: 36rem) {
     margin-top: 0.88rem;
 
     font-size: 1.125rem;

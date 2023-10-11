@@ -4,11 +4,16 @@
   --primary-green-teal: hsl(166, 100%, 37%);
   --primary-cobalt-blue: hsl(234, 85%, 45%);
 
+  --red-95-white: hsla(0, 100%, 67.1%, 0.06);
+  --yellow-95-white: hsla(38.8, 100%, 56.1%, 0.06);
+  --green-95-white: hsla(166, 100%, 37.1%, 0.06);
+  --blue-95-white: hsla(233.8, 85.2%, 44.9%, 0.06);
+
   --gradient-light-slate-blue: hsl(252, 100%, 67%);
   --gradient-light-royal-blue: hsl(241, 81%, 54%);
   --gradient-violet-blue: hsla(256, 72%, 46%, 1);
   --gradient-persian-blue: hsla(241, 72%, 46%, 0);
-  --results-section-gradient: linear-gradient(
+  --blue-gradient: linear-gradient(
     180deg,
     hsl(252, 100%, 67%) 0%,
     hsl(252, 100%, 63%) 0.01%,
