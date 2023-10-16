@@ -9,10 +9,17 @@ const ResultsSummary = () => {
   return (
     <section className="results__summary">
       <h2 className="results__summaryTitle">Summary</h2>
-      <ul className="results__valuesContainer">
+      <ul
+        className="results__valuesContainer"
+        aria-label="Test sections and scores"
+      >
         <li className="results__value result__value--red">
           <span className="results__sectionScoreLabel">
-            <img src={reactionIcon} className="results__sectionIcon" />
+            <img
+              src={reactionIcon}
+              alt="reaction icon"
+              className="results__sectionIcon"
+            />
             <h3>Reaction</h3>
           </span>
           <p className="result__scoreBlock">
@@ -22,7 +29,11 @@ const ResultsSummary = () => {
         </li>
         <li className="results__value result__value--yellow">
           <span className="results__sectionScoreLabel">
-            <img src={memoryIcon} className="results__sectionIcon" />
+            <img
+              src={memoryIcon}
+              alt="memory icon"
+              className="results__sectionIcon"
+            />
             <h3>Memory</h3>
           </span>
           <p className="result__scoreBlock">
@@ -32,7 +43,11 @@ const ResultsSummary = () => {
         </li>
         <li className="results__value result__value--green">
           <span className="results__sectionScoreLabel">
-            <img src={verbalIcon} className="results__sectionIcon" />
+            <img
+              src={verbalIcon}
+              alt="verbal icon"
+              className="results__sectionIcon"
+            />
             <h3>Verbal</h3>
           </span>
           <p className="result__scoreBlock">
@@ -42,7 +57,11 @@ const ResultsSummary = () => {
         </li>
         <li className="results__value result__value--blue">
           <span className="results__sectionScoreLabel">
-            <img src={visualIcon} className="results__sectionIcon" />
+            <img
+              src={visualIcon}
+              alt="visual icon"
+              className="results__sectionIcon"
+            />
             <h3>Visual</h3>
           </span>
           <p className="result__scoreBlock">
